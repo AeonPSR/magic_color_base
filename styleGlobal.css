@@ -64,7 +64,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 500px;
+	width: 200px;
+	min-height: 200px;
 }
 
 /* Parts */
@@ -73,18 +74,38 @@ body {
 	background-color: var(--white);
 }
 
+.sWhite:hover {
+	background-color: var(--icon-white);
+}
+
 .sBlue {
 	background-color: var(--blue);
+}
+
+.sBlue:hover {
+	background-color: var(--icon-blue);
 }
 
 .sBlack {
 	background-color: var(--black);
 }
 
+.sBlack:hover {
+	background-color: var(--icon-black);
+}
+
 .sRed {
 	background-color: var(--red);
 }
 
+.sRed:hover {
+	background-color: var(--icon-red);
+}
+
 .sGreen {
 	background-color: var(--green);
+}
+
+.sGreen:hover {
+	background-color: var(--icon-green);
 }
