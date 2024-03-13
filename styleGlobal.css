@@ -1,0 +1,90 @@
+/*
+
+- Vars
+- Global elements
+- Body
+- Parts
+
+- Header -> parts/parts.css
+- Footer -> parts/parts.css
+
+*/
+
+
+/* Vars */
+
+html {
+	--header-color: rgb(169, 255, 212);
+	--header-button: rgb(129, 255, 192);
+	--header-hover: rgb(81, 255, 168);
+	--footer-color: rgb(169, 255, 212);
+	--background-color: grey;
+
+	--white: #F0F0EB;
+	--icon-white: #F9E9CC;
+	--blue: #0B6A9C;
+	--icon-blue: #DDEFF8;
+	--black: #35332E;
+	--icon-black: #AFA9AB;
+	--red: #C55842;
+	--icon-red: #F8C8A1;
+	--green: #4A6248;
+	--icon-green: #CBD8C8;
+}
+
+/* Global elements */
+
+html, body {
+	min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/* Yeah it's an empty ruleset, what ya gonna do */
+}
+
+/* Body */
+
+body {
+	font-family: "Oxygen", sans-serif;
+	margin: 0;
+	background-color: var(--background-color);
+	display: flex;
+	flex-direction: column;
+}
+
+.core {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	background-color: var(--icon-black);
+}
+
+.core > * {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+}
+
+/* Parts */
+
+.sWhite {
+	background-color: var(--white);
+}
+
+.sBlue {
+	background-color: var(--blue);
+}
+
+.sBlack {
+	background-color: var(--black);
+}
+
+.sRed {
+	background-color: var(--red);
+}
+
+.sGreen {
+	background-color: var(--green);
+}

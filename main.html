@@ -1,1 +1,44 @@
-teeee
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="styleGlobal.css">
+		<link rel="stylesheet" href="parts/styleSmallParts.css">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	</head>
+	<body>
+		<div id="header-placeholder"></div>
+		<script>
+			$(function(){
+				$('#header-placeholder').load('parts/header.html');
+			});
+		</script>
+
+		<div class="core">
+			<section class="sWhite">
+				<h2>White</h2>
+			</section>
+			<section class="sBlue">
+				<h2>Blue</h2>
+			</section>
+			<section class="sBlack">
+				<h2>Black</h2>
+			</section>
+			<section class="sRed">
+				<h2>Red</h2>
+			</section>
+			<section class="sGreen">
+				<h2>Green</h2>
+			</section>
+		</div>
+
+		<div id="footer-placeholder"></div>
+		<script id="footer-placeholder">
+			$(function(){
+				$('#footer-placeholder').load('parts/footer.html');
+			});
+		</script>
+	</body>
+</html>
